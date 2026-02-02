@@ -1,5 +1,5 @@
 # ✈️ SFO Flights – End-to-End ELT Analytics Pipeline
-![Project Architecture]('images/architecture.png')
+![Project Architecture](images/architecture.png)
 ## 📌 Project Overview
 
 This project demonstrates a **production-style ELT data pipeline** for flight analytics using modern cloud and analytics tools.  
