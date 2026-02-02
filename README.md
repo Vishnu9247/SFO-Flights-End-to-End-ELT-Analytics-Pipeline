@@ -128,13 +128,13 @@ Ensures:
 
 **Top Airlines by Total Delay Volume:**
 
-| Rank | Airline | Total Delay |
-|------|---------|-------------|
-| 1 | United Airlines | ~300K minutes |
-| 2 | SkyWest Airlines | ~250K minutes |
-| 3 | American Airlines | ~200K minutes |
-| 4 | Southwest Airlines | ~175K minutes |
-| 5 | Alaska Airlines | ~150K minutes |
+| Rank | Airline |
+|------|---------|
+| 1 | United Airlines | 
+| 2 | SkyWest Airlines |
+| 3 | American Airlines | 
+| 4 | Southwest Airlines |
+| 5 | Alaska Airlines | 
 
 **Key Finding:** United Airlines handles the highest volume at SFO, resulting in the most aggregate delays, though this correlates with their market share.
 
