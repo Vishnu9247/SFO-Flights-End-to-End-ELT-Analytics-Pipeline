@@ -19,7 +19,8 @@ The focus is on:
 **Data Flow:**
 
 ```
-Azure Blob Storage  
+Azure Blob Storage
+→ Azure Blob Storage (Raw Data)    
 → Airbyte (Docker)  
 → Snowflake (Raw + Analytics)  
 → dbt (Transform, Test, Model)  
@@ -327,5 +328,5 @@ This is a **production-ready analytics pipeline**, not a tutorial project.
 ## 🙏 Acknowledgments
 
 - **Dataset:** Flight data from public aviation databases
-- **Tools:** Airbyte, Snowflake, dbt, Power BI
+- **Tools:** Airbyte, Snowflake, dbt, Power BI, Azure Blob Storage
 - **Inspiration:** Modern data stack community and analytics engineering principles
