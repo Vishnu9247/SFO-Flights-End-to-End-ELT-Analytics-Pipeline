@@ -66,7 +66,7 @@ Azure Blob Storage
 │   └── README.md
 │
 ├── Delay_Analysis.pdf        # Power BI Dashboard export
-├── flights_sample_3m.csv     # Sample dataset
+├── flights.csv               # Sample dataset
 ├── requirements.txt
 └── README.md
 ```
