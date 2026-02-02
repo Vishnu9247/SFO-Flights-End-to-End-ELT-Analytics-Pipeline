@@ -304,9 +304,9 @@ This pipeline demonstrates:
 ## 👤 Author
 
 **Vishnu Alla**  
-Data Engineering & Analytics Enthusiast
+Data Analyst
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/vishnu-alla) | [GitHub](https://github.com/vishnu-alla)
+**Connect:** [LinkedIn](https://www.linkedin.com/in/vishnu-alla) 
 
 ---
 
