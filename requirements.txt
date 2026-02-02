@@ -1,0 +1,6 @@
+azure-mgmt-resource
+azure-identity
+azure-mgmt-storage
+azure-mgmt-databricks
+dotenv
+databricks-sdk

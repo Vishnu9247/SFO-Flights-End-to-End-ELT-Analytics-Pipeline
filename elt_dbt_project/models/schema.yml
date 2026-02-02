@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_flights_sfo
+    description: "Cleaned and typed staging model for SFO flights"
+
+  - name: dim_airline
+    description: "Airline dimension"
+    columns:
+      - name: airline_key
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_airport
+    description: "Airport dimension"
+    columns:
+      - name: airport_key
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_date
+    description: "Date dimension"
+    columns:
+      - name: date_key
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_flight
+    description: "Flight-level fact table"
+    columns:
+      - name: flight_key
+        tests:
+          - not_null
+          - unique
+
+      - name: airline_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_airline')
+                field: airline_key
+
+      - name: origin_airport_key
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_airport')
+                field: airport_key
