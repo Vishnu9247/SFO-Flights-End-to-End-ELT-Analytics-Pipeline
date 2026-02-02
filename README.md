@@ -11,7 +11,7 @@ The focus is on:
 - Data quality testing
 - BI-ready dimensional modeling
 
----
+---git 
 
 ## 🏗️ Architecture
 
@@ -65,6 +65,7 @@ Azure Blob Storage
 │   └── README.md
 │
 ├── flights_sample_3m.csv     # Sample dataset
+|-- Delay Analysis.pdf
 ├── requirements.txt
 └── README.md
 ```
